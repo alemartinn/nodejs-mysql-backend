@@ -5,7 +5,6 @@ SELECT
 	c.poster,
 	c.titulo,
 	c.resumen,
-	c.trailer,
 	case
 		when c.temporadas is null then 'N/A'
 		else c.temporadas

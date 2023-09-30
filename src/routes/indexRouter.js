@@ -12,7 +12,7 @@ router.get('/', function (req, res, next) {
 // router.use('/')
 router.use('/actor', actorRouter);
 router.use('/catalogo', catalogoRouter);
-router.use('/categoria', categoriaRouter);
+router.use('/categorias', categoriaRouter);
 router.use('/contenido', contenidoRouter);
 router.use('/genero', generoRouter);
 
